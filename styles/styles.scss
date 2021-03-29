@@ -1,0 +1,24 @@
+@import './container.scss';
+@import './resets.scss';
+
+$myNewSassColor: rgb(17, 174, 226);
+$bodyBackground: rgb(193, 236, 236);
+
+
+
+body {
+  background-color: $bodyBackground
+}
+
+header {
+  display: flex;
+  box-shadow: 0 0 50px -20px black;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 100vw;
+  height: 200px;
+  background-color: $myNewSassColor;
+}
+
+

@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// starting with an underscore alerts the compiler that this is a partial and doesn't need a whole 'nother file. this file gets exported/loaded into the main scss file.

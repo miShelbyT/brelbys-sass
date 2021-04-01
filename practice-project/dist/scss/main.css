@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #f8f88a;
-  color: #2c312c;
+  background-color: #f3f398;
+  color: #524e4e;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: orange;
+  color: #524e4e;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: grey;
+  color: #524e4e;
 }
 
 footer {

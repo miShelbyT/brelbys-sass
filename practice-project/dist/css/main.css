@@ -222,6 +222,47 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.wine-cupcakes .wine__cupcakes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wine-cupcakes img {
+  height: 400px;
+  max-width: 300px;
+  margin: 2rem;
+}
+
+.wine-cupcakes .wines img {
+  height: 400px;
+  max-width: 300px;
+  margin: 2rem;
+}
+
+.wine-cupcakes .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wine-cupcakes footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
 body {
   background-color: #666663;
   color: #fff;

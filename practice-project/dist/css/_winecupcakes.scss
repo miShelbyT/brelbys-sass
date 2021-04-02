@@ -1,0 +1,38 @@
+.wine-cupcakes {
+
+
+
+  .wine__cupcakes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+    img {
+      height: 400px;
+      max-width: 300px;
+      margin: 2rem;
+    }
+
+
+    .wines {
+      img {
+        height: 400px;
+        max-width: 300px;
+        margin: 2rem;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      transform:
+      rotate(90deg)
+      translate(-3rem, -5rem)
+    }
+
+}

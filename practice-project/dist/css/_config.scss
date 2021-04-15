@@ -1,5 +1,6 @@
 $primary-color: rgb(102, 102, 99);
-$secondary-color: rgb(250, 195, 12);
+$secondary-color: rgb(243, 192, 24);
+$tertiary-color: rgb(85, 66, 83);
 
 
 * {
@@ -17,5 +18,17 @@ $secondary-color: rgb(250, 195, 12);
     @return #000;
   } @else {
     @return #fff;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 790px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
   }
 }

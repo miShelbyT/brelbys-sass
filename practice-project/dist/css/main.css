@@ -229,6 +229,10 @@
   padding: 0;
 }
 
+.nav {
+  background-color: white;
+}
+
 .w-c {
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(85, 66, 83, 0.9)), to(rgba(85, 66, 83, 0.3)));
   background: linear-gradient(to bottom right, rgba(85, 66, 83, 0.9), rgba(85, 66, 83, 0.3));

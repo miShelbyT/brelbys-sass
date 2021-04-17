@@ -8,6 +8,7 @@
 
   .nav {
     visibility: visible;
+    
 
     .menu-nav {
       display: block;
@@ -23,9 +24,16 @@
 
       &__link {
         font-size: 1.25rem;
+        padding: 1.5rem;
       }
     }
+
   }
+
+  .wine-nav {
+    background-color: $tertiary-color;
+  }
+  
   .home {
 
     h2 {
